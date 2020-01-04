@@ -4,7 +4,6 @@ from re import sub as resub, findall as refindall
 import os
 import sys
 from PIL import Image
-from fpdf import FPDF
 def combine_url(url):
     root_url = 'https://mangacanblog.com/'
     output_url = root_url + url
